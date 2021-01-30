@@ -21,7 +21,6 @@ public:
 	double get_x() { return x; }
 	double get_y() { return y; }
 	double get_z() { return z; }
-
 	bool operator!=(Punkt p2) {
 		if (x == p2.x && y == p2.y && z == p2.z) {
 			return false;
@@ -29,7 +28,6 @@ public:
 		else {
 			return true;
 		}
-
 	}
 };
 
