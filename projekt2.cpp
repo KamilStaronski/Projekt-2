@@ -289,7 +289,6 @@ private:
 	vector <Figura> nowe_figury;
 
 	bool bledny_int(std::string napis) {
-		int licznik_kropek = 0;
 		for (int i = 0; i < napis.size(); i++) {
 			if (!('0' <= napis[i] && napis[i] <= '9')) {
 				return true;
